@@ -14,13 +14,16 @@
 		4D233BFA17F6649000D6B31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233BF917F6649000D6B31A /* main.m */; };
 		4D233BFE17F6649000D6B31A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233BFD17F6649000D6B31A /* AppDelegate.m */; };
 		4D233C0117F6649000D6B31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D233BFF17F6649000D6B31A /* Main.storyboard */; };
-		4D233C0417F6649000D6B31A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233C0317F6649000D6B31A /* ViewController.m */; };
 		4D233C0617F6649000D6B31A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D233C0517F6649000D6B31A /* Images.xcassets */; };
-		4D233C0D17F6649000D6B31A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D233C0C17F6649000D6B31A /* XCTest.framework */; };
 		4D233C0E17F6649000D6B31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D233BED17F6649000D6B31A /* Foundation.framework */; };
 		4D233C0F17F6649000D6B31A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D233BF117F6649000D6B31A /* UIKit.framework */; };
-		4D233C1717F6649000D6B31A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D233C1517F6649000D6B31A /* InfoPlist.strings */; };
-		4D233C1917F6649000D6B31A /* GoogleFeedSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233C1817F6649000D6B31A /* GoogleFeedSearchTests.m */; };
+		4D233C2417F664DA00D6B31A /* FeedSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233C2317F664DA00D6B31A /* FeedSearchViewController.m */; };
+		4D233C2717F6685500D6B31A /* FeedSearchConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D233C2617F6685500D6B31A /* FeedSearchConnection.m */; };
+		4D4004CB180C80AB007356E3 /* FeedSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4004CA180C80AB007356E3 /* FeedSearchCell.m */; };
+		4D4004CF180C8807007356E3 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4004CE180C8807007356E3 /* NSString+HTML.m */; };
+		4D4004D4180C8C51007356E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004D0180C8C51007356E3 /* README.md */; };
+		4D4004D5180C8C51007356E3 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004D2180C8C51007356E3 /* Screenshot01.png */; };
+		4D4004D6180C8C51007356E3 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004D3180C8C51007356E3 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,19 @@
 		4D233BFC17F6649000D6B31A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D233BFD17F6649000D6B31A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D233C0017F6649000D6B31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D233C0217F6649000D6B31A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4D233C0317F6649000D6B31A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D233C0517F6649000D6B31A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D233C0B17F6649000D6B31A /* GoogleFeedSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFeedSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D233C0C17F6649000D6B31A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4D233C1417F6649000D6B31A /* GoogleFeedSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleFeedSearchTests-Info.plist"; sourceTree = "<group>"; };
-		4D233C1617F6649000D6B31A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4D233C1817F6649000D6B31A /* GoogleFeedSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleFeedSearchTests.m; sourceTree = "<group>"; };
+		4D233C2217F664DA00D6B31A /* FeedSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedSearchViewController.h; sourceTree = "<group>"; };
+		4D233C2317F664DA00D6B31A /* FeedSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedSearchViewController.m; sourceTree = "<group>"; };
+		4D233C2517F6685500D6B31A /* FeedSearchConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedSearchConnection.h; sourceTree = "<group>"; };
+		4D233C2617F6685500D6B31A /* FeedSearchConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedSearchConnection.m; sourceTree = "<group>"; };
+		4D4004C9180C80AB007356E3 /* FeedSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedSearchCell.h; sourceTree = "<group>"; };
+		4D4004CA180C80AB007356E3 /* FeedSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedSearchCell.m; sourceTree = "<group>"; };
+		4D4004CD180C8807007356E3 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		4D4004CE180C8807007356E3 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		4D4004D0180C8C51007356E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4D4004D2180C8C51007356E3 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		4D4004D3180C8C51007356E3 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D233C0D17F6649000D6B31A /* XCTest.framework in Frameworks */,
 				4D233C0F17F6649000D6B31A /* UIKit.framework in Frameworks */,
 				4D233C0E17F6649000D6B31A /* Foundation.framework in Frameworks */,
 			);
@@ -83,9 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				4D233BF317F6649000D6B31A /* GoogleFeedSearch */,
-				4D233C1217F6649000D6B31A /* GoogleFeedSearchTests */,
 				4D233BEC17F6649000D6B31A /* Frameworks */,
 				4D233BEB17F6649000D6B31A /* Products */,
+				4D4004D0180C8C51007356E3 /* README.md */,
+				4D4004D1180C8C51007356E3 /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +112,6 @@
 				4D233BED17F6649000D6B31A /* Foundation.framework */,
 				4D233BEF17F6649000D6B31A /* CoreGraphics.framework */,
 				4D233BF117F6649000D6B31A /* UIKit.framework */,
-				4D233C0C17F6649000D6B31A /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +122,14 @@
 				4D233BFC17F6649000D6B31A /* AppDelegate.h */,
 				4D233BFD17F6649000D6B31A /* AppDelegate.m */,
 				4D233BFF17F6649000D6B31A /* Main.storyboard */,
-				4D233C0217F6649000D6B31A /* ViewController.h */,
-				4D233C0317F6649000D6B31A /* ViewController.m */,
+				4D233C2217F664DA00D6B31A /* FeedSearchViewController.h */,
+				4D233C2317F664DA00D6B31A /* FeedSearchViewController.m */,
+				4D4004C9180C80AB007356E3 /* FeedSearchCell.h */,
+				4D4004CA180C80AB007356E3 /* FeedSearchCell.m */,
+				4D233C2517F6685500D6B31A /* FeedSearchConnection.h */,
+				4D233C2617F6685500D6B31A /* FeedSearchConnection.m */,
+				4D4004CD180C8807007356E3 /* NSString+HTML.h */,
+				4D4004CE180C8807007356E3 /* NSString+HTML.m */,
 				4D233C0517F6649000D6B31A /* Images.xcassets */,
 				4D233BF417F6649000D6B31A /* Supporting Files */,
 			);
@@ -134,22 +147,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D233C1217F6649000D6B31A /* GoogleFeedSearchTests */ = {
+		4D4004D1180C8C51007356E3 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				4D233C1817F6649000D6B31A /* GoogleFeedSearchTests.m */,
-				4D233C1317F6649000D6B31A /* Supporting Files */,
+				4D4004D2180C8C51007356E3 /* Screenshot01.png */,
+				4D4004D3180C8C51007356E3 /* Screenshot02.png */,
 			);
-			path = GoogleFeedSearchTests;
-			sourceTree = "<group>";
-		};
-		4D233C1317F6649000D6B31A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D233C1417F6649000D6B31A /* GoogleFeedSearchTests-Info.plist */,
-				4D233C1517F6649000D6B31A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +234,10 @@
 			files = (
 				4D233C0617F6649000D6B31A /* Images.xcassets in Resources */,
 				4D233BF817F6649000D6B31A /* InfoPlist.strings in Resources */,
+				4D4004D4180C8C51007356E3 /* README.md in Resources */,
+				4D4004D5180C8C51007356E3 /* Screenshot01.png in Resources */,
 				4D233C0117F6649000D6B31A /* Main.storyboard in Resources */,
+				4D4004D6180C8C51007356E3 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D233C1717F6649000D6B31A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D233C0417F6649000D6B31A /* ViewController.m in Sources */,
 				4D233BFE17F6649000D6B31A /* AppDelegate.m in Sources */,
 				4D233BFA17F6649000D6B31A /* main.m in Sources */,
+				4D233C2417F664DA00D6B31A /* FeedSearchViewController.m in Sources */,
+				4D233C2717F6685500D6B31A /* FeedSearchConnection.m in Sources */,
+				4D4004CF180C8807007356E3 /* NSString+HTML.m in Sources */,
+				4D4004CB180C80AB007356E3 /* FeedSearchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D233C1917F6649000D6B31A /* GoogleFeedSearchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +296,6 @@
 				4D233C0017F6649000D6B31A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D233C1517F6649000D6B31A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D233C1617F6649000D6B31A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -460,6 +460,7 @@
 				4D233C1E17F6649000D6B31A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D233C1F17F6649000D6B31A /* Build configuration list for PBXNativeTarget "GoogleFeedSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				4D233C2117F6649000D6B31A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

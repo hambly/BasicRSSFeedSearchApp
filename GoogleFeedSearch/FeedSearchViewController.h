@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FeedSearchViewController.h
 //  GoogleFeedSearch
 //
 //  Created by Mark on 9/28/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FeedSearchViewController : UIViewController
 
 @end
